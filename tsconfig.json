@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "module": "ES2020",
+    "esModuleInterop": true,
+    "lib": ["es2020"],
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "types": [
+      "@types/node",
+      "vitest/globals",
+      "@cloudflare/workers-types",
+    ]
+  },
+  "exclude": ["./node_modules", "dist"],
+  "include": [
+    "src/**/*.ts",
+    "vitest.config.*.ts",
+    "vitest.config.ts" 
+  ]
+}

@@ -1,0 +1,4 @@
+name = "miniflare-node-compat-bug"
+main = "src/index.ts"
+compatibility_date = "2024-01-29"
+compatibility_flags = ["nodejs_compat"]
